@@ -140,16 +140,16 @@
             </sc-for>
           </nav>
           <div style="display:flex;flex-direction:column;gap:24px;min-height:360px;padding-top:8px;">
-            <div style="display:flex;flex-direction:column;gap:14px;padding-bottom:24px;border-bottom:1px solid var(--line-hairline);">
-              <h2 style="margin:0;font-family:var(--font-display);font-size:38px;line-height:1.08;letter-spacing:-.018em;color:var(--text-display);">{{ role.org }}</h2>
-              <p style="margin:0;font-size:19px;line-height:1.4;color:var(--text-accent);font-weight:500;">{{ role.title }}</p>
-              <div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-family:var(--font-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);">
+            <div style="display:flex;flex-direction:column;gap:16px;padding-bottom:24px;border-bottom:1px solid var(--line-hairline);">
+              <h2 style="margin:0;font-family:var(--font-display);font-size:42px;line-height:1.08;letter-spacing:-.018em;color:var(--text-display);">{{ role.org }}</h2>
+              <p style="margin:0;font-size:21px;line-height:1.4;color:var(--text-accent);font-weight:500;">{{ role.title }}</p>
+              <div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-family:var(--font-mono);font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);">
                 <span>{{ role.when }}</span>
                 <span style="width:4px;height:4px;background:var(--sand-400);"></span>
                 <span>{{ role.where }}</span>
               </div>
             </div>
-            <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px;max-width:62ch;font-size:16.5px;line-height:1.68;color:var(--text-muted);">
+            <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:15px;max-width:64ch;font-size:18px;line-height:1.68;color:var(--text-muted);">
               <sc-for list="{{ role.points }}" as="pt" hint-placeholder-count="2">
                 <li style="display:grid;grid-template-columns:18px minmax(0,1fr);gap:8px;"><span style="margin-top:9px;width:7px;height:7px;background:var(--clay-500);"></span><span>{{ pt }}</span></li>
               </sc-for>
@@ -162,7 +162,7 @@
           </div>
         </div>
       </section>
-      <section data-gutter="" style="padding:32px 48px 0;">
+      <section data-gutter="" style="padding:72px 48px 0;">
         <div data-split="" style="max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;">
           <x-import component-from-global-scope="GambitDesignSystem_437136.Card" pad="lg" hint-size="100%,220px" style="display:flex;flex-direction:column">
             <h3 style="margin:0 0 4px;font-family:var(--font-display);font-size:22px;letter-spacing:-.018em;color:var(--text-display);">Education</h3>
