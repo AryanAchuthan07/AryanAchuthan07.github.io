@@ -1,0 +1,47 @@
+:root{
+  /* ---- Base ramp: earth ---- */
+  --bone-50:#FBF8F2; --bone-100:#F4EEE3; --bone-200:#EAE1D1; --bone-300:#DCCFB9;
+  --sand-400:#C8B698; --sand-500:#AD9877;
+  --walnut-600:#7A6349; --walnut-700:#54432F; --walnut-800:#3A2E21; --ink-900:#231C15;
+
+  /* ---- Accents ---- */
+  --clay-300:#E4A487; --clay-500:#B4552D; --clay-600:#95421F; --clay-700:#733317;
+  --moss-300:#A9B694; --moss-500:#5F7048; --moss-600:#4A5836;
+  --ochre-300:#EBC782; --ochre-500:#C98A2B; --ochre-600:#A46C1A;
+  --slate-500:#5A6472; --oxblood-500:#7C2B2B;
+
+  /* ---- Chess board pair (the brand's one true duotone) ---- */
+  --square-light:#EAE1D1; --square-dark:#7A6349;
+
+  /* ---- Semantic: surfaces ---- */
+  --surface-page:var(--bone-100);
+  --surface-raised:var(--bone-50);
+  --surface-card:var(--bone-50);
+  --surface-sunken:var(--bone-200);
+  --surface-inverse:var(--ink-900);
+  --surface-accent:var(--clay-500);
+  --surface-accent-soft:#F3DDD0;
+  --surface-muted:var(--bone-300);
+
+  /* ---- Semantic: text ---- */
+  --text-display:var(--ink-900);
+  --text-body:var(--walnut-800);
+  --text-muted:var(--walnut-600);
+  --text-faint:var(--sand-500);
+  --text-inverse:var(--bone-100);
+  --text-accent:var(--clay-600);
+  --text-link:var(--clay-600);
+  --text-link-hover:var(--ink-900);
+
+  /* ---- Semantic: lines ---- */
+  --line-hairline:#DCCFB9;
+  --line-strong:var(--walnut-700);
+  --line-accent:var(--clay-500);
+  --focus-ring:var(--ochre-500);
+
+  /* ---- Semantic: status ---- */
+  --status-good:var(--moss-500);      --status-good-soft:#E3E9D8;
+  --status-warn:var(--ochre-500);     --status-warn-soft:#F7E8CB;
+  --status-bad:var(--oxblood-500);    --status-bad-soft:#F0DADA;
+  --status-info:var(--slate-500);     --status-info-soft:#E1E4E8;
+}

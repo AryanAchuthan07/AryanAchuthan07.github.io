@@ -1,0 +1,15 @@
+:root{
+  /* Checker field: the brand's one repeating texture. Size via --checker-size. */
+  --checker-size:16px;
+  --checker-light:var(--square-light);
+  --checker-dark:var(--square-dark);
+  --pattern-checker:
+    repeating-conic-gradient(var(--checker-dark) 0% 25%, var(--checker-light) 0% 50%)
+    0 0 / calc(var(--checker-size)*2) calc(var(--checker-size)*2);
+  /* Paper grain: 2% warm noise via layered gradients (no image asset). */
+  --pattern-grain:
+    radial-gradient(rgba(122,99,73,.045) 1px, transparent 1.2px) 0 0/7px 7px,
+    radial-gradient(rgba(122,99,73,.035) 1px, transparent 1.2px) 3px 4px/11px 11px; /* @kind other */
+}
+.gambit-checker{background:var(--pattern-checker)}
+.gambit-grain{background-image:var(--pattern-grain)}

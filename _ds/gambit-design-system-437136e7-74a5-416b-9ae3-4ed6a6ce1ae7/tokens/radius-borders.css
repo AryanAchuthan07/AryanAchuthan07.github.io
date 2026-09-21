@@ -1,0 +1,14 @@
+:root{
+  /* Corners are nearly square - a board has no round squares. */
+  --radius-none:0;
+  --radius-xs:2px;
+  --radius-sm:3px;
+  --radius-md:5px;    /* cards, inputs, buttons */
+  --radius-lg:8px;    /* dialogs, large panels */
+  --radius-pill:999px;/* tags only */
+
+  --border-hairline:1px solid var(--line-hairline);
+  --border-strong:1px solid var(--line-strong);
+  --border-heavy:2px solid var(--ink-900);
+  --border-accent:1px solid var(--line-accent);
+}

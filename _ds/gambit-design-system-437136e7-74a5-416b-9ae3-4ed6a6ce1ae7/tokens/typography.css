@@ -1,0 +1,31 @@
+:root{
+  --font-display:"Young Serif",Georgia,"Times New Roman",serif;
+  --font-body:"Work Sans","Helvetica Neue",Helvetica,sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+
+  --text-2xs:0.6875rem; /* 11px - notation ranks/files */
+  --text-xs:0.75rem;    /* 12px */
+  --text-sm:0.8125rem;  /* 13px */
+  --text-base:0.9375rem;/* 15px */
+  --text-md:1.0625rem;  /* 17px - long-form body */
+  --text-lg:1.375rem;   /* 22px */
+  --text-xl:1.875rem;   /* 30px */
+  --text-2xl:2.625rem;  /* 42px */
+  --text-3xl:3.75rem;   /* 60px */
+  --text-4xl:5.25rem;   /* 84px */
+
+  --leading-tight:1.04;
+  --leading-snug:1.2;
+  --leading-normal:1.5;
+  --leading-loose:1.68;
+
+  --tracking-display:-0.018em;
+  --tracking-normal:0;
+  --tracking-wide:0.04em;
+  --tracking-caps:0.14em;  /* eyebrows, notation labels */
+
+  --weight-light:300; --weight-regular:400; --weight-medium:500; --weight-semibold:600;
+
+  --measure-prose:64ch;
+  --measure-narrow:44ch;
+}

@@ -1,0 +1,16 @@
+:root{
+  /* Square-based scale: the board square is 1 unit = 8px */
+  --sq-0:0; /* @kind spacing */ --sq-0-5:4px; --sq-1:8px; --sq-1-5:12px; --sq-2:16px; --sq-3:24px;
+  --sq-4:32px; --sq-5:40px; --sq-6:48px; --sq-8:64px; --sq-10:80px; --sq-12:96px;
+  --sq-16:128px; --sq-20:160px;
+
+  --gutter-page:var(--sq-6);
+  --gutter-page-wide:var(--sq-12);
+  --gap-tight:var(--sq-1);
+  --gap-default:var(--sq-2);
+  --gap-section:var(--sq-12);
+  --pad-card:var(--sq-3);
+  --pad-card-lg:var(--sq-5);
+  --width-content:1180px;
+  --width-prose:680px;
+}

@@ -1,0 +1,12 @@
+:root{
+  /* Pieces are placed, not floated. Short, decisive, no bounce. */
+  --dur-instant:90ms; /* @kind other */
+  --dur-fast:140ms; /* @kind other */
+  --dur-base:200ms; /* @kind other */
+  --dur-slow:320ms; /* @kind other */
+  --ease-place:cubic-bezier(.2,.8,.3,1); /* @kind other */   /* default: quick out, settled landing */
+  --ease-out:cubic-bezier(.16,1,.3,1); /* @kind other */
+  --ease-in-out:cubic-bezier(.65,0,.35,1); /* @kind other */
+  --press-scale:0.985; /* @kind other */
+  --press-translate:2px;
+}
