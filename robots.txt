@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aryanachuthan07.github.io/sitemap.xml
+Sitemap: https://aryanachuthan.com/sitemap.xml
