@@ -182,7 +182,8 @@
                 <p style="margin:0 0 10px;font-family:var(--font-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);">Relevant coursework</p>
                 <div style="display:flex;flex-wrap:wrap;gap:8px;">
                   <x-import component-from-global-scope="GambitDesignSystem_437136.Tag" hint-size="auto,26px">Data Structures &amp; Algorithms</x-import>
-                  <x-import component-from-global-scope="GambitDesignSystem_437136.Tag" hint-size="auto,26px">Principles of Data Science</x-import>
+                  <x-import component-from-global-scope="GambitDesignSystem_437136.Tag" hint-size="auto,26px">Database Systems</x-import>
+                  <x-import component-from-global-scope="GambitDesignSystem_437136.Tag" hint-size="auto,26px">Efficient Algorithms</x-import>
                   <x-import component-from-global-scope="GambitDesignSystem_437136.Tag" hint-size="auto,26px">Discrete Math &amp; Probability</x-import>
                   <x-import component-from-global-scope="GambitDesignSystem_437136.Tag" hint-size="auto,26px">Linear Algebra</x-import>
                 </div>
@@ -477,6 +478,7 @@
                   <x-import component-from-global-scope="GambitDesignSystem_437136.Icon" name="arrow-up-right" size="{{ 18 }}" color="var(--text-accent)" hint-size="18px,18px"></x-import>
                 </a>
               </sc-for>
+              <div style="padding:16px 0;border-top:1px solid var(--line-hairline);font-size:17px;color:var(--text-body);">U.S. Citizen</div>
             </div>
           </div>
           <x-import component-from-global-scope="GambitDesignSystem_437136.Card" pad="lg" elevation="card" hint-size="100%,460px">
@@ -611,6 +613,10 @@ const START_RANKS = (function () {
   return ranks;
 })();
 const ROLES = [
+  { when: "Sep 2026 - Present", where: "Costa Mesa, CA", org: "Anduril", title: "Software Engineer (Contract)",
+    points: ["Built a Python and FastAPI engine that models hardware programs as dependency graphs to surface bottlenecks and ship-date risk.",
+             "Building a React dashboard and REST API that shows that analysis across programs."],
+    tags: ["Python", "FastAPI", "React", "Dependency graphs"] },
   { when: "Jul 2026", where: "Chicago, IL", org: "IMC Trading", title: "US Chess Academy Finalist",
     points: ["Selected as one of 20 finalists from the top 2% of a national field and flown to Chicago for IMC's US Chess Academy Championship.",
              "Spent the week with IMC's software engineering and trading technology teams, learning how the firm connects calculation under pressure to trading decisions."],
@@ -664,8 +670,8 @@ const PROJECTS = [
 ];
 const SKILLS = [
   { label: "Languages", items: ["Java", "Python", "SQL", "PostgreSQL", "MySQL", "JavaScript", "HTML/CSS", "R", "C/C++"] },
-  { label: "Frameworks and libraries", items: ["React", "Node.js", "Flask", "FastAPI", "Pandas", "NumPy", "Matplotlib", "PyTorch", "TensorFlow", "Scikit-Learn"] },
-  { label: "Tools", items: ["Git", "Docker", "Linux", "GCP", "AWS", "Vercel", "VS Code", "IBM Bob", "Jupyter Lab", "REST APIs", "Claude API", "Tableau", "Agile"] }
+  { label: "Frameworks and libraries", items: ["React", "Node.js", "Flask", "FastAPI", "Pandas", "NumPy", "Matplotlib", "PyTorch", "TensorFlow", "Scikit-Learn", "Streamlit", "LangChain"] },
+  { label: "Tools", items: ["Git", "Docker", "Linux", "GCP", "AWS (Bedrock, RDS)", "Kubernetes", "Vercel", "VS Code", "IBM Bob", "Jupyter Lab", "REST APIs", "Claude API", "Tableau", "Agile", "MongoDB", "SQLite"] }
 ];
 
 class Component extends DCLogic {
